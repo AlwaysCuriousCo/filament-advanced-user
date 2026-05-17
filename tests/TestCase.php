@@ -2,9 +2,9 @@
 
 namespace AlwaysCurious\FilamentAdvancedUser\Tests;
 
+use AlwaysCurious\FilamentAdvancedUser\FilamentAdvancedUserServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AlwaysCurious\FilamentAdvancedUser\FilamentAdvancedUserServiceProvider;
 
 class TestCase extends Orchestra
 {
