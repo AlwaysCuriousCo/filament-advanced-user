@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "alwayscurious/filament-advanced-user",
+    "description": "A complete solution for user, role, and permissions management in your Laravel + FilamentPHP app. Supporting Teams and Multi-Tenancy with batteries included.",
     "keywords": [
-        ":vendor_name",
+        "Always Curious Co",
         "laravel",
-        ":package_slug"
+        "filament-advanced-user"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/alwayscurious/filament-advanced-user",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Timothy Wood",
+            "email": "tim@alwaycurious.co",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "AlwaysCurious\\FilamentAdvancedUser\\": "src/",
+            "AlwaysCurious\\FilamentAdvancedUser\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "AlwaysCurious\\FilamentAdvancedUser\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "AlwaysCurious\\FilamentAdvancedUser\\FilamentAdvancedUserServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentAdvancedUser": "AlwaysCurious\\FilamentAdvancedUser\\Facades\\FilamentAdvancedUser"
             }
         }
     },

@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace AlwaysCurious\FilamentAdvancedUser\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentAdvancedUserCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-advanced-user';
 
     public $description = 'My command';
 
