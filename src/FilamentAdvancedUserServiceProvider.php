@@ -2,9 +2,9 @@
 
 namespace AlwaysCurious\FilamentAdvancedUser;
 
+use AlwaysCurious\FilamentAdvancedUser\Commands\FilamentAdvancedUserCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AlwaysCurious\FilamentAdvancedUser\Commands\FilamentAdvancedUserCommand;
 
 class FilamentAdvancedUserServiceProvider extends PackageServiceProvider
 {
