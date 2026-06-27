@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 return [
 
     /*
@@ -185,7 +186,7 @@ return [
     */
 
     'tenancy' => [
-        'enabled'  => (bool) env('PERMISSIONS_REDIS_TENANCY_ENABLED', false),
+        'enabled' => (bool) env('PERMISSIONS_REDIS_TENANCY_ENABLED', false),
         'resolver' => env('PERMISSIONS_REDIS_TENANCY_RESOLVER', null),
     ],
 
@@ -230,11 +231,11 @@ return [
     */
 
     'tables' => [
-        'permissions'           => 'permissions',
-        'roles'                 => 'roles',
+        'permissions' => 'permissions',
+        'roles' => 'roles',
         'model_has_permissions' => 'model_has_permissions',
-        'model_has_roles'       => 'model_has_roles',
-        'role_has_permissions'  => 'role_has_permissions',
+        'model_has_roles' => 'model_has_roles',
+        'role_has_permissions' => 'role_has_permissions',
     ],
 
     /*
