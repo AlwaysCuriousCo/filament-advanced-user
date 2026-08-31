@@ -1,5 +1,6 @@
 {
     "name": "alwayscurious/filament-advanced-user",
+    "type": "library",
     "description": "A complete solution for user, role, and permissions management in your Laravel + FilamentPHP app. Supporting Teams and Multi-Tenancy with batteries included.",
     "keywords": [
         "Always Curious Co",
